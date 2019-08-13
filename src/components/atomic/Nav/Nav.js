@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './menu.css'
+import styles from './nav.css'
 
-export default class Menu extends Component {
+export default class Nav extends Component {
     static propTypes = {
         linkUrl: PropTypes.string,
         linkText: PropTypes.string
@@ -17,8 +17,10 @@ export default class Menu extends Component {
 
         return (
             <nav className={styles.nav}>
-                <ul>
-                    <li><a href={linkUrl}>{linkText}</a></li>
+                <ul className={styles.ul}>
+                    <li className={styles.li}><a href={linkUrl}>{linkText}</a></li>
+                    <li className={styles.li}><a href={linkUrl}>{linkText}</a></li>
+                    <li className={styles.li}><a href={linkUrl}>{linkText}</a></li>
                 </ul>
             </nav>
         )
