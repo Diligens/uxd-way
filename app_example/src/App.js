@@ -7,7 +7,8 @@ export default class App extends Component {
         return (
             <div>
                 <Menu linkUrl='someLink' linkText='link to ...' />
-                <Button> Lalalalalala </Button>
+                <br/>
+                <Button title="lalalalalalal"> Lalalalalala </Button>
             </div>
         )
     }

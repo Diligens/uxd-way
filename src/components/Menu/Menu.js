@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import MenuCss from './menu.css'
+import styles from './menu.css'
 
 export default class Menu extends Component {
     static propTypes = {
@@ -16,7 +16,7 @@ export default class Menu extends Component {
         } = this.props
 
         return (
-            <nav className={MenuCss.test}>
+            <nav className={styles.nav}>
                 <ul>
                     <li><a href={linkUrl}>{linkText}</a></li>
                 </ul>
