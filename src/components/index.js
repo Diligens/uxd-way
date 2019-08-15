@@ -5,3 +5,5 @@ export { default as Address } from './atomic/Address';
 export { default as Image } from './atomic/Image';
 export { default as Collapse } from './atomic/Collapse';
 export { default as Time } from './atomic/Time';
+
+export { default as EmergnLogo } from './emergn/EmergnLogo';

@@ -1,20 +1,12 @@
 import React, { Component } from 'react'
 
-import {
-    Nav,
-    Button,
-    Progress,
-    Address,
-    Image,
-    Collapse,
-    Time
-} from 'uxd-way'
+import { EmergnLogo } from 'uxd-way'
 
 export default class App extends Component {
     render() {
         return (
             <div>
-
+                <EmergnLogo />
             </div>
         )
     }

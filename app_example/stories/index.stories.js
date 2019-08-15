@@ -3,6 +3,9 @@ import React from 'react';
 import { storiesOf, addParameters } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { linkTo } from '@storybook/addon-links';
+import {
+    EmergnLogo
+} from 'uxd-way'
 
 import { Button, Welcome } from '@storybook/react/demo';
 
@@ -23,4 +26,10 @@ storiesOf('Button', module)
                 😀 😎 👍 💯
             </span>
         </Button>
+    ));
+
+
+storiesOf('Emergn Logo', module)
+    .add('black', () => (
+        <EmergnLogo/>
     ));
